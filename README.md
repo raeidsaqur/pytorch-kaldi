@@ -132,6 +132,7 @@ In the following, we provide a short tutorial of the PyTorch-Kaldi toolkit based
 ```
 cd kaldi/egs/timit/s5
 ./run.sh
+./local/nnet/run_dnn.sh
 ```
 
 This way all the necessary files are created and the user can directly compare the results obtained by Kaldi with that achieved with our toolkit.
